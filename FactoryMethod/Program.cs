@@ -38,7 +38,6 @@ namespace Pattern_FactoryMethod
         IProduction IWorkshop.Create() => new Truck();
     }
 
-
     internal class Program
     {
         static void Main(string[] args)

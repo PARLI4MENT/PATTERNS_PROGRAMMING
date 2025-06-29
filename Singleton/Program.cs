@@ -9,8 +9,8 @@ namespace Singleton
 {
     public class DatabaseHelper
     {
-        private string data;
-        private static DatabaseHelper databaseConnection;
+        private string? data;
+        private static DatabaseHelper? databaseConnection;
 
         private DatabaseHelper() => Console.WriteLine("Connection to Database");
         public static DatabaseHelper GetConnection()

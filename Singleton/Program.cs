@@ -5,7 +5,7 @@
 к этому экземпляру
 */
 
-namespace Singleton
+namespace Pattent_Singleton
 {
     public class DatabaseHelper
     {
@@ -20,7 +20,7 @@ namespace Singleton
             return databaseConnection;
         }
 
-        public string SelectData() => data;
+        public string? SelectData() => data;
         public void InsertData(string data)
         {
             Console.WriteLine($"New data: {data}, insert to Database" );
